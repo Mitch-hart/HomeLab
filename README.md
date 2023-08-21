@@ -19,18 +19,19 @@ In this section, I'll provide a brief overview of my home lab, its purpose, and 
 
 ## Hardware
 
-Here's a list of the hardware components that form the backbone of my home lab:
-
-- **Server 1:** Describe specifications (CPU, RAM, storage, etc.)
-- **Server 2:** Describe specifications
+Here's a list of the  components that form the backbone of my home lab:
+- **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060
+- **Domain Controller:** Describe specifications (CPU, RAM, storage, etc.)
+- **Web Server:** Describe specifications
 - **Network Switch:** Describe specifications
-- **Router/Firewall:** Describe specifications
+- **Firewall:** Describe specifications
 - **Storage Array:** Describe specifications
-- **...** (Add more components as needed)
 
 ## Network Topology
 
 Illustrate the network layout of your lab. You can use diagrams or text to explain how devices are connected and how data flows.
+
+![Alt Text](https://github.com/Mitch-hart/HomeLab/blob/main/HomeLab_DRAFT.png?raw=true"Title")
 
 ## Virtualization
 
@@ -47,7 +48,6 @@ List the services, applications, and tools you're running in your home lab. Incl
 - **Web Server:** Description
 - **Database Server:** Description
 - **Monitoring Tools:** Description
-- **...** (List all services)
 
 ## Configuration Scripts
 
@@ -55,7 +55,6 @@ If you've created any automation scripts or configuration files to set up your l
 
 - **Provisioning Script:** Link to provisioning script
 - **Network Configuration:** Link to network configuration files
-- **...** (Add more if applicable)
 
 ## Troubleshooting
 
@@ -63,7 +62,7 @@ Document common issues you've encountered and their solutions. This can help oth
 
 - **Issue 1:** Description of the issue and solution
 - **Issue 2:** Description of the issue and solution
-- **...** (List all relevant troubleshooting items)
+
 
 ## Resources
 
