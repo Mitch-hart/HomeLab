@@ -22,11 +22,11 @@ Need to complete this section.
 ## Hardware
 
 Here's a list of the  components that form the backbone of my home lab:
-- **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060
-- **Domain Controller:** Describe specifications (CPU, RAM, storage, etc.)
+- **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060. Hostname: UKLHOST01, OS: Proxmox 8.0.3.
+- **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKDC01, OS: Windows 2022 Eval. 
 - **Web Server:** Describe specifications
 - **Network Switch:** Describe specifications
-- **Firewall:** Describe specifications
+- **Firewall:** pfSense
 - **Storage Array:** Describe specifications
 
 ## Network Topology
@@ -36,8 +36,6 @@ Proposed environment below. Need to add data flow with IPs and key legend.
 ![Alt Text](https://github.com/Mitch-hart/HomeLab/blob/main/HomeLab_DRAFT.png?raw=true"Title")
 
 ## Virtualization
-
-
 
 - **Hypervisor:** Proxmox Virtual Environment 8.0.3
 - **VM Templates:** Mention any pre-configured virtual machine templates I've created.
@@ -73,4 +71,3 @@ Provide links to external resources, guides, or tutorials that have helped me se
 - [Link to Blog Post on Home Lab Setup](URL)
 - [YouTube Tutorial on Setting Up Hypervisor](URL)
 - [GitHub Repository for Configuration Scripts](URL)
-- [...](Add more resources)
