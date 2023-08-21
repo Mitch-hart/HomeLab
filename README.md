@@ -6,4 +6,6 @@ Web Server - TBC
 Vuln Server - TBC
 File Server - TBC
 
-Pi's
+Raspberry Pi's
+- SIEM/IDS/Sniffer
+- Firewall + DNS
