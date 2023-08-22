@@ -63,7 +63,7 @@ Proposed environment below. Need to add data flow with IPs and key legend.
 - **Metasploitable Server 2:** https://docs.rapid7.com/metasploit/metasploitable-2/
 - **Metasploitable Server 3:** https://github.com/rapid7/metasploitable3
 - **Database Server:** **TO DO** Find vulnerable database images
-- **Monitoring Tools:** Possibilities: SNORT, Zeek, Suricata, The Elastic Stack, SecurityOnion
+- **Monitoring Tools:** Possibilities: SNORT, Zeek, Suricata, The Elastic Stack, SecurityOnion 2.4.10-20230821
 
 ## Configuration Scripts
 
