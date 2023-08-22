@@ -76,7 +76,7 @@ If I've created any automation scripts or configuration files to set up my lab e
 
 Document common issues I've encountered and their solutions. This can help others who might face similar challenges:
 
-- **Issue 1:** Description of the issue and solution
+- **Issue 1:** Virtualisation not enabled on PC. "Verify that the BIOS/firmware settings enable AMD-V." 
 - **Issue 2:** Description of the issue and solution
 
 
