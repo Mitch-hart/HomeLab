@@ -24,9 +24,9 @@ Need to complete this section.
 Here's a list of the  components that form the backbone of my home lab:
 - **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060. Hostname: UKLHOST01, OS: Proxmox 8.0.3.
 - **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKDC01, OS: Windows 2022 Eval. 
-- **Web Server:** Describe specifications
+- **Web Server:** Consideration
 - **Network Switch:** Describe specifications
-- **Firewall:** pfSense
+- **Firewall:** pfSense Version TBC
 - **Storage Array:** Describe specifications
 
 ## Network Topology
@@ -43,11 +43,11 @@ Proposed environment below. Need to add data flow with IPs and key legend.
 ## Services and Applications
 
 List the services, applications, and tools im running in my home lab. Include a brief description of each:
-
-- **DNS Server:** Description
+- **Domain Controller:** BadBlood to populate https://github.com/davidprowe/BadBlood. Also look at BloodHound for attack paths.
+- **DNS Server:** Domain Controller will host DNS for Server LAN. Router will handle DNS for Home PC.
 - **Web Server:** Description
 - **Database Server:** Description
-- **Monitoring Tools:** Description
+- **Monitoring Tools:** Possibilities: SNORT, Zeek, Suricata, The Elastic Stack.
 
 ## Configuration Scripts
 
@@ -67,7 +67,7 @@ Document common issues I've encountered and their solutions. This can help other
 ## Resources
 
 Provide links to external resources, guides, or tutorials that have helped me set up and maintain my home lab:
-
-- [Link to Blog Post on Home Lab Setup](URL)
-- [YouTube Tutorial on Setting Up Hypervisor](URL)
-- [GitHub Repository for Configuration Scripts](URL)
+- [AD population](https://github.com/davidprowe/BadBlood)
+- [Home Lab Inspiration](https://www.notra-sec.com/blog/my-home-lab-setup)
+- [Network Monitoring Tool](https://zeek.org/)
+- [John Hammond Virtual Environment](https://www.youtube.com/watch?v=pKtDQtsubio)
