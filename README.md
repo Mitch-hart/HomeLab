@@ -98,3 +98,4 @@ Provide links to external resources, guides, or tutorials that have helped me se
 - https://www.accidentalrebel.com/building-my-virtual-cybersecurity-home-lab.html
 - https://remnux.org/
 - https://www.ariefprabowo.com/en/malware-analysis-en/personal-notes-building-a-malware-analysis-lab-environment/
+- https://github.com/Security-Onion-Solutions/securityonion/blob/2.4/main/DOWNLOAD_AND_VERIFY_ISO.md
