@@ -49,7 +49,7 @@ List the services, applications, and tools im running in my home lab. Include a 
 - **Web Server:** **TO DO** Find vulnerable web server images
 - **Metasploitable Server:** **TO READ** https://docs.rapid7.com/metasploit/metasploitable-2/
 - **Database Server:** **TO DO** Find vulnerable database images
-- **Monitoring Tools:** Possibilities: SNORT, Zeek, Suricata, The Elastic Stack.
+- **Monitoring Tools:** Possibilities: SNORT, Zeek, Suricata, The Elastic Stack, SecurityOnion
 
 ## Configuration Scripts
 
@@ -74,3 +74,11 @@ Provide links to external resources, guides, or tutorials that have helped me se
 - [Network Monitoring Tool](https://zeek.org/)
 - [John Hammond Virtual Environment](https://www.youtube.com/watch?v=pKtDQtsubio)
 - [VulnHub](https://www.vulnhub.com/entry/vulnerable-pentesting-lab-environment-1,737/)
+- https://www.vulnhub.com/lab/
+- https://kb.help.rapid7.com/docs/setting-up-a-penetration-testing-lab
+- https://github.com/AutomatedLab/AutomatedLab
+- https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/evaluation-lab-expanded-os-support-amp-atomic-red-team/ba-p/2993927
+- https://simulandlabs.com/README.html
+- https://github.com/mandiant/Azure_Workshop
+- https://securityonionsolutions.com/
+- https://www.accidentalrebel.com/building-my-virtual-cybersecurity-home-lab.html
