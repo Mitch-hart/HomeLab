@@ -29,7 +29,7 @@ Here's a list of the  components that form the backbone of my home lab:
 - **Security Gateway:** Ubiquiti UniFi Security Gateway Router
 - **Software Firewall:** pfSense Version TBC
 - **Storage Array:** Onboard storage via Laptop Host. Exploring NAS options
-- **Malware Analysis:** https://remnux.org/
+- **Malware Analysis:** https://remnux.org/ https://www.ariefprabowo.com/en/malware-analysis-en/personal-notes-building-a-malware-analysis-lab-environment/
 
 ## Network Topology
 
