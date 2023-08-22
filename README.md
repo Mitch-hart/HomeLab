@@ -28,7 +28,8 @@ Here's a list of the  components that form the backbone of my home lab:
 - **Network Switch:** Ubiquiti UniFi USW Flex Mini 5-Port Layer 2 Gigabit Switch
 - **Security Gateway:** Ubiquiti UniFi Security Gateway Router
 - **Software Firewall:** pfSense Version TBC
-- **Storage Array:** Onboard storage via Laptop Host. Exploring NAS options 
+- **Storage Array:** Onboard storage via Laptop Host. Exploring NAS options
+- **Malware Analysis:** https://remnux.org/
 
 ## Network Topology
 
