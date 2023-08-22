@@ -19,15 +19,16 @@ In this section, I'll provide a brief overview of my home lab, its purpose, and 
 
 Need to complete this section.
 
-## Hardware
+## Network & Servers
 
 Here's a list of the  components that form the backbone of my home lab:
 - **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060. Hostname: UKLHOST01, OS: Proxmox 8.0.3.
 - **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKDC01, OS: Windows 2022 Eval. 
-- **Web Server:** Consideration
-- **Network Switch:** Describe specifications
-- **Firewall:** pfSense Version TBC
-- **Storage Array:** Describe specifications
+- **Web Server:** **TO DO** Consideration
+- **Network Switch:** Ubiquiti UniFi USW Flex Mini 5-Port Layer 2 Gigabit Switch
+- **Security Gateway:** Ubiquiti UniFi Security Gateway Router
+- **Software Firewall:** pfSense Version TBC
+- **Storage Array:** Onboard storage via Laptop Host. Exploring NAS options 
 
 ## Network Topology
 
@@ -45,8 +46,9 @@ Proposed environment below. Need to add data flow with IPs and key legend.
 List the services, applications, and tools im running in my home lab. Include a brief description of each:
 - **Domain Controller:** BadBlood to populate https://github.com/davidprowe/BadBlood. Also look at BloodHound for attack paths.
 - **DNS Server:** Domain Controller will host DNS for Server LAN. Router will handle DNS for Home PC.
-- **Web Server:** Description
-- **Database Server:** Description
+- **Web Server:** **TO DO** Find vulnerable web server images
+- **Metasploitable Server:** **TO READ** https://docs.rapid7.com/metasploit/metasploitable-2/
+- **Database Server:** **TO DO** Find vulnerable database images
 - **Monitoring Tools:** Possibilities: SNORT, Zeek, Suricata, The Elastic Stack.
 
 ## Configuration Scripts
