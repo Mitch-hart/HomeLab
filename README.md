@@ -33,7 +33,7 @@ Here's a list of the  components that form the backbone of my home lab:
 
 Proposed environment below. Need to add data flow with IPs and key legend.
 
-![Alt Text](https://github.com/Mitch-hart/HomeLab/blob/main/HomeLab_DRAFT.png?raw=true"Title")
+![Alt Text]([https://github.com/Mitch-hart/HomeLab/blob/main/HomeLab_DRAFT.png?raw=true](https://github.com/Mitch-hart/HomeLab/blob/main/Network%20Design%20V2.png?raw=true)"Title")
 
 ## Virtualization
 
