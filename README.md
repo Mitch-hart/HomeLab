@@ -35,25 +35,25 @@ In this repository, I document my journey through cyber security and penetration
 
 Here's a list of the  components that form the backbone of my home lab:
 - **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060. Hostname: UKLHOST01, OS: Proxmox 8.0.3.
-- **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKDC01, OS: Windows 2022 Eval. 192.168.1.100
+- **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKDC01, OS: Windows 2022 Eval.
 - **Workstatation:** Windows 10 Workstation.
 - **ParrotOS PC:** This will be used to conduct the testing.
 - **Network Switch:** Ubiquiti UniFi USW Flex Mini 5-Port Layer 2 Gigabit Switch. Virtual switch via Laptop Host.
 - **Security Gateway:** Ubiquiti UniFi Security Gateway Router.
 - **Firewall:** pfSense 2.7.0
 - **Storage Array:** Onboard storage via Laptop Host. Exploring NAS options.
-- **Malware Analysis:** remnux
+- **Malware Analysis:** Remnux
 
 ## Network Diagram
 
 Proposed environment below. Need to add data flow with IPs and key legend.
 
-![alt text](https://github.com/Mitch-hart/HomeLab/blob/main/HomeLab%20v3.png)
+![alt text](https://github.com/Mitch-hart/HomeLab/blob/main/HomeLab%20v3.1.png)
 
 ## Virtualization
 
-- **Hypervisor:** Proxmox Virtual Environment 8.0.3
-- **VM Templates:** Mention any pre-configured virtual machine templates I've created or used.
+- **Hypervisor:** VMWare Workstation 17 Pro
+- **VM Templates:** Badblood - Domain Controller
 
 ## Services and Applications
 
@@ -63,7 +63,7 @@ Proposed environment below. Need to add data flow with IPs and key legend.
 - **Metasploitable Server 2:** https://docs.rapid7.com/metasploit/metasploitable-2/
 - **Metasploitable Server 3:** https://github.com/rapid7/metasploitable3
 - **Database Server:** **TO DO** Find vulnerable database images
-- **Monitoring Tools:** Possibilities: SNORT, Zeek, Suricata, The Elastic Stack, SecurityOnion 2.4.10-20230821
+- **Monitoring Tools:** Currently using: Wazuh | Possibilities: SNORT, Zeek, Suricata, The Elastic Stack
 
 ## Configuration Scripts
 
@@ -88,6 +88,7 @@ Provide links to external resources, guides, or tutorials that have helped me se
 - [Network Monitoring Tool](https://zeek.org/)
 - [John Hammond Virtual Environment](https://www.youtube.com/watch?v=pKtDQtsubio)
 - [VulnHub](https://www.vulnhub.com/entry/vulnerable-pentesting-lab-environment-1,737/)
+- [Wazuh Documentation](https://documentation.wazuh.com/current/index.html)
 - https://www.vulnhub.com/lab/
 - https://kb.help.rapid7.com/docs/setting-up-a-penetration-testing-lab
 - https://github.com/AutomatedLab/AutomatedLab
@@ -99,3 +100,4 @@ Provide links to external resources, guides, or tutorials that have helped me se
 - https://remnux.org/
 - https://www.ariefprabowo.com/en/malware-analysis-en/personal-notes-building-a-malware-analysis-lab-environment/
 - https://github.com/Security-Onion-Solutions/securityonion/blob/2.4/main/DOWNLOAD_AND_VERIFY_ISO.md
+
