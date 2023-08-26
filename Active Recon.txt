@@ -6,4 +6,4 @@ Wappalyzer provides insights about the technologies used on the visited websites
 Commands
 ping
 tracert
-nc
+nc - On the server system, where you want to open a port and listen on it, you can issue nc -lp 1234 or better yet, nc -vnlp 1234, which is equivalent to nc -v -l -n -p 1234
