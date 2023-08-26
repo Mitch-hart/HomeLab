@@ -7,3 +7,16 @@ Commands
 ping
 tracert
 nc - On the server system, where you want to open a port and listen on it, you can issue nc -lp 1234 or better yet, nc -vnlp 1234, which is equivalent to nc -v -l -n -p 1234
+
+NMAP
+-sV version info
+-sC scripts
+-p- full port range
+-T4 quick scan
+
+option required to tell Nmap to use ICMP Timestamp to discover live hosts
+-pp
+option required to tell Nmap to use ICMP Address Mask to discover live hosts
+-pm
+option required to tell Nmap to use ICMP Echo to discover life hosts
+-pe
