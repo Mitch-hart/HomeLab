@@ -1,0 +1,8 @@
+URLs
+https://dnsdumpster.com/
+https://www.shodan.io/
+
+Commands
+dig
+whois
+nslookup
