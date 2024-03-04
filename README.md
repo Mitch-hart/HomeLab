@@ -36,8 +36,8 @@ In this repository, I document my journey through cyber security and penetration
 Here's a list of the  components that form the backbone of my home lab:
 - **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060. Hostname: UKLHOST01, OS: Proxmox 8.0.3.
 - **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKDC01, OS: Windows 2022 Eval.
-- **Workstatation:** Windows 10 Workstation.
-- **ParrotOS PC:** This will be used to conduct the testing.
+- **Workstation:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKWS01, OS: Windows 10.
+- **ParrotOS PC:** **Hardware Specs to do**This will be used to conduct the testing.
 - **Network Switch:** Ubiquiti UniFi USW Flex Mini 5-Port Layer 2 Gigabit Switch. Virtual switch via Laptop Host.
 - **Security Gateway:** Ubiquiti UniFi Security Gateway Router.
 - **Firewall:** pfSense 2.7.0
