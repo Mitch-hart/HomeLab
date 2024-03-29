@@ -34,13 +34,12 @@ In this repository, I document my journey through cyber security and penetration
 ## Network and Servers
 
 Here's a list of the  components that form the backbone of my home lab:
-- **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060. Hostname: UKLHOST01, OS: Proxmox 8.0.3.
-- **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKDC01, OS: Windows 2022 Eval.
-- **Workstation:** Virtual, 2GB RAM, 40GB Storage. Hostname: UKWS01, OS: Windows 10.
+- **Host:** Asus Laptop, 24GB RAM, 256GB SSD, GTX 1060. Hostname: UKLHOST01, OS: Windows Server 2022, Hyper-V.
+- **Domain Controller:** Virtual, 2GB RAM, 40GB Storage. Hostname: DC01, OS: Windows 2022.
+- **Workstation:** Virtual, 2GB RAM, 40GB Storage. Hostname: DK01, OS: Windows 10.
 - **ParrotOS PC:** **Hardware Specs to do**This will be used to conduct the testing.
 - **Network Switch:** Ubiquiti UniFi USW Flex Mini 5-Port Layer 2 Gigabit Switch. Virtual switch via Laptop Host.
-- **Security Gateway:** Ubiquiti UniFi Security Gateway Router.
-- **Firewall:** pfSense 2.7.0
+- **Firewall:** OPNSense
 - **Storage Array:** Onboard storage via Laptop Host. Exploring NAS options.
 - **Malware Analysis:** Remnux
 
@@ -67,17 +66,10 @@ Proposed environment below. Need to add data flow with IPs and key legend.
 
 ## Configuration Scripts
 
-If I've created any automation scripts or configuration files to set up my lab environment, provide links or snippets here:
+Any automation scripts or configuration files to set up my lab environment:
 
 - **Provisioning Script:** Link to provisioning script
 - **Network Configuration:** Link to network configuration files
-
-## Troubleshooting
-
-Document common issues I've encountered and their solutions. This can help others who might face similar challenges:
-
-- **Issue 1:** Virtualisation not enabled on PC. "Verify that the BIOS/firmware settings enable AMD-V." 
-- **Issue 2:** Description of the issue and solution
 
 
 ## Resources
