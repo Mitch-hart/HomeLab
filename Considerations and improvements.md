@@ -1,39 +1,33 @@
-## Network Segmentation and VLANs
-Implement VLANs: If not already done, segment your network into different VLANs to isolate traffic between different machines and use cases. For example, you could have a VLAN for management, another for your red team activities, and another for the blue team.
-Dedicated Management Network: Set up a dedicated network for management traffic, making it easier to manage devices without interfering with your security testing.
+## High Priority (Essential Setup and Configuration)
 
-## Security and Monitoring
-IDS/IPS: Include an Intrusion Detection System/Intrusion Prevention System (IDS/IPS) like Snort or Suricata on your network to monitor and potentially block malicious traffic.
-SIEM System: Integrate a Security Information and Event Management (SIEM) system like Splunk or ELK Stack to analyze logs and events for signs of security incidents.
-Honeypots: Deploy honeypots within your network to attract and analyze attacks, which can be valuable learning tools for understanding threats.
+ Configure OPNsense Firewall: Set up basic security policies and NAT to protect the lab.\
+ Implement VLANs: Segregate traffic for different lab segments (Red Team, Blue Team, Management).\
+ Set Up Wazuh SIEM: Get the SIEM system running for log collection and analysis.\
+ Install and Configure DNS/DHCP Services: Centralize network services management, typically on DC01.\
+ Deploy Windows Server VM with Active Directory: Essential for practicing enterprise network management.\
+ Network Connectivity Verification: Ensure all lab devices can communicate as intended.\
+ IP Address Management: Verify no conflicts and set up DHCP server with proper scope.\
+ Deploy ParrotOS VM: Set up for penetration testing and security research.\
+ Create Metasploitable VMs: Set up vulnerable machines for penetration testing practice.
 
-## Additional Machines and Services
-Vulnerable Machines: For red team practice, include more vulnerable VMs or use platforms like VulnHub to download and deploy VMs with known vulnerabilities.
-Active Directory Environment: If not already present, set up a Windows Server with Active Directory for blue team practice in defending enterprise environments.
-Attack Platforms: For red team activities, consider setting up Kali Linux or another penetration testing distribution.
-Web Application Testing: Include a machine running OWASP Broken Web Applications or DVWA for web application security practice.
+## Medium Priority (Security Enhancements and Monitoring)
+Install IDS/IPS: Use Snort or Suricata to monitor network for malicious activities.\
+Set Up Vulnerability Scanner: Integrate OpenVAS to identify potential vulnerabilities.\
+Implement Backup Solution: Ensure data redundancy for critical VMs and configurations.\
+Deploy Network Monitoring Tool: Use Nagios Core or Zabbix for real-time network status.\
+Integrate Log Management: Incorporate Graylog or ELK Stack for advanced log management.
 
-## Virtualization and Containers
-Use Containers: If not currently utilized, consider adding Docker or Kubernetes for practicing container security and orchestration.
-Proxmox VE or VMware ESXi: While Hyper-V is in use, consider Proxmox VE or VMware ESXi for more advanced virtualization features and practice.
+## Low Priority (Advanced Security Tools and Training):
+Install Endpoint Detection and Response (EDR): Configure TheHive Project or OSSEC for detailed monitoring and alerting.\
+Web Application Security: Set up OWASP ZAP or Burp Suite Community Edition for web app testing.\
+Red Team Tools: Add Kali Linux, BlackArch, or ArchStrike VMs for diverse penetration testing environments.\
+Set Up Web Application Firewall (WAF): Configure ModSecurity with the OWASP CRS.\
+Virtual Network Simulation: Use GNS3 or EVE-NG to simulate larger network environments.\
+Secure Programming and DevOps: Install Visual Studio Code and set up GitLab CE for secure coding practices.
 
-## Backup and Recovery
-Backup Solutions: Ensure you have a backup solution for your virtual machines and important data to quickly recover from any mishaps.
-
-## Lab Access and VPN
-Remote Access: Set up a VPN to safely access your lab remotely, using something like OpenVPN or WireGuard.
-Jump Host: Use a secure jump host for accessing your lab environment, which can help you control access more securely.
-
-## Documentation and Policy
-Network Documentation: Keep detailed documentation of your lab setup, configuration changes, and network topology updates.
-Policy Creation: Write and implement security policies and procedures for your lab, mimicking real-world corporate environments.
-
-## Hardware Improvements
-Upgrade Hardware: If performance is an issue, consider upgrading RAM, CPUs, or network equipment to handle more virtual machines and traffic.
-
-## Training and Scenarios
-Capture The Flag (CTF): Set up or participate in CTF challenges to test your skills in a competitive environment.
-Incident Response: Create incident response scenarios to practice blue team responses to attacks.
-
-## Compliance and Best Practices
-Compliance Frameworks: Familiarize yourself with compliance frameworks like NIST, CIS, or ISO standards and implement their best practices in your lab.
+## Additional Projects (Expansion and Community):
+Install Vulnerable Systems: Get VulnHub VMs or set up DVWA for targeted practice.\
+CTF Challenges: Set up CTFd to host or practice cybersecurity competitions.\
+Documentation and Wiki: Start a DokuWiki or MediaWiki for documenting lab configurations and procedures.\
+Team Communication: Implement Mattermost or Rocket.Chat if collaboration is needed.\
+Physical Lab Security: Ensure the physical security of lab equipment.
