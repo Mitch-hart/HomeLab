@@ -1,8 +1,8 @@
 ## High Priority (Essential Setup and Configuration)
 
-- [x] Configure OPNsense Firewall: Set up basic security policies and NAT to protect the lab.
+- [ ] Configure OPNsense Firewall: Set up basic security policies and NAT to protect the lab.
 - [ ] Implement VLANs: Segregate traffic for different lab segments (Red Team, Blue Team, Management).
-- [ ] Set Up Wazuh SIEM: Get the SIEM system running for log collection and analysis.
+- [x] Set Up Wazuh SIEM: Get the SIEM system running for log collection and analysis.
 - [x] Install and Configure DNS/DHCP Services: Centralize network services management, typically on DC01.
 - [x] Deploy Windows Server VM with Active Directory: Essential for practicing enterprise network management.
 - [x] Network Connectivity Verification: Ensure all lab devices can communicate as intended.
@@ -34,4 +34,8 @@
 - [ ] Documentation and Wiki: Start a DokuWiki or MediaWiki for documenting lab configurations and procedures.
 - [ ] Team Communication: Implement Mattermost or Rocket.Chat if collaboration is needed.
 - [ ] Physical Lab Security: Ensure the physical security of lab equipment.
-- [ ] Migrate Hosting: Migrate the hosting environment to new hardware and proxmox hyper visor
+- [ ] Migrate Hosting: Migrate the hosting environment to new hardware and proxmox hyper visor.
+- [ ] VPN: Access lab remotely, configure a VPN on the OPNsense firewall to ensure secure access.
+- [ ] War Room Scenarios: Set up red team/blue team scenarios within your lab for practical cybersecurity experiences.
+- [ ] Updates and Patch Management: Regularly update and patch all systems, especially the OS running on UKLHOST01 and ParrotOS machine.
+- [ ] CIS and Group Policies: Implement Group Policies through Domain Controller to manage security settings across machines.
