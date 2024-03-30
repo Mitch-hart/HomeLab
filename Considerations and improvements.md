@@ -9,6 +9,7 @@
 - [x] IP Address Management: Verify no conflicts and set up DHCP server with proper scope.
 - [ ] Deploy ParrotOS/Kali VM: Set up for penetration testing and security research.
 - [ ] Create Metasploitable/Vulnhub VMs: Set up vulnerable machines for penetration testing practice.
+- [ ] Network File Share
 
 ## Medium Priority (Security Enhancements and Monitoring)
 
