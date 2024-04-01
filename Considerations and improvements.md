@@ -1,6 +1,6 @@
 ## High Priority (Essential Setup and Configuration)
 
-- [ ] Configure Sophos XG Firewall: Set up basic security policies and NAT to protect the lab.
+- [x] Configure Sophos XG Firewall: Set up basic security policies and NAT to protect the lab.
 - [ ] Implement VLANs: Segregate traffic for different lab segments (Red Team, Blue Team, Management).
 - [x] Set Up Wazuh SIEM: Get the SIEM system running for log collection and analysis.
 - [x] Install and Configure DNS/DHCP Services: Centralize network services management on DC01.
