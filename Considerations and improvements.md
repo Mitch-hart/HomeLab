@@ -3,13 +3,13 @@
 - [ ] Configure Sophos XG Firewall: Set up basic security policies and NAT to protect the lab.
 - [ ] Implement VLANs: Segregate traffic for different lab segments (Red Team, Blue Team, Management).
 - [x] Set Up Wazuh SIEM: Get the SIEM system running for log collection and analysis.
-- [x] Install and Configure DNS/DHCP Services: Centralize network services management, typically on DC01.
+- [x] Install and Configure DNS/DHCP Services: Centralize network services management on DC01.
 - [x] Deploy Windows Server VM with Active Directory: Essential for practicing enterprise network management.
 - [x] Network Connectivity Verification: Ensure all lab devices can communicate as intended.
 - [x] IP Address Management: Verify no conflicts and set up DHCP server with proper scope.
-- [ ] Deploy ParrotOS/Kali VM: Set up for penetration testing and security research.
+- [ ] Deploy Kali VM: Set up for penetration testing and security research.
 - [ ] Create Metasploitable/Vulnhub VMs: Set up vulnerable machines for penetration testing practice.
-- [ ] Network File Share
+- [ ] Network File Share.
 
 ## Medium Priority (Security Enhancements and Monitoring)
 
@@ -23,7 +23,7 @@
 
 - [ ] Install Endpoint Detection and Response (EDR): Configure TheHive Project or OSSEC for detailed monitoring and alerting.
 - [ ] Web Application Security: Set up OWASP ZAP or Burp Suite Community Edition for web app testing.
-- [ ] Red Team Tools: Add ParrotOS, Kali Linux, BlackArch, or ArchStrike VMs for diverse penetration testing environments.
+- [ ] Red Team Tools: Add additional ParrotOS, Kali Linux, BlackArch, or ArchStrike VMs for diverse penetration testing environments.
 - [ ] Set Up Web Application Firewall (WAF): Configure ModSecurity with the OWASP CRS.
 - [ ] Virtual Network Simulation: Use GNS3 or EVE-NG to simulate larger network environments.
 
@@ -35,9 +35,9 @@
 - [ ] Team Communication: Implement Mattermost or Rocket.Chat if collaboration is needed.
 - [ ] Physical Lab Security: Ensure the physical security of lab equipment.
 - [ ] Migrate Hosting: Migrate the hosting environment to new hardware and proxmox hyper visor.
-- [ ] VPN: Access lab remotely, configure a VPN on the OPNsense firewall to ensure secure access.
+- [ ] VPN: Access lab remotely, configure a VPN on the firewall to ensure secure access.
 - [ ] War Room Scenarios: Set up red team/blue team scenarios within your lab for practical cybersecurity experiences.
-- [ ] Updates and Patch Management: Regularly update and patch all systems, especially the OS running on UKLHOST01 and ParrotOS machine.
+- [ ] Updates and Patch Management: Regularly update and patch all systems, especially the OS running on UKLHOST01 and Kali machine.
 - [ ] CIS and Group Policies: Implement Group Policies through Domain Controller to manage security settings across machines.
 
 
