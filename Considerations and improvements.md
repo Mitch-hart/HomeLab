@@ -39,3 +39,41 @@
 - [ ] War Room Scenarios: Set up red team/blue team scenarios within your lab for practical cybersecurity experiences.
 - [ ] Updates and Patch Management: Regularly update and patch all systems, especially the OS running on UKLHOST01 and ParrotOS machine.
 - [ ] CIS and Group Policies: Implement Group Policies through Domain Controller to manage security settings across machines.
+
+
+## Beginner Level
+Kioptrix: Level 1 (#1): A great starting point for beginners. It focuses on basic vulnerabilities and common misconfigurations.
+
+URL: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/
+Mr-Robot: 1: Inspired by the TV show "Mr. Robot," this VM is designed for beginners and encompasses a variety of interesting challenges.
+
+URL: https://www.vulnhub.com/entry/mr-robot-1,151/
+DC-1: This is a deliberately vulnerable Ubuntu VM. It's designed to be a somewhat realistic scenario to introduce beginners to penetration testing.
+
+URL: https://www.vulnhub.com/entry/dc-1,292/
+
+## Intermediate Level
+Toppo: 1: Good for intermediates, focusing on basic vulnerabilities with slightly more complexity than the beginner VMs.
+
+URL: https://www.vulnhub.com/entry/toppo-1,245/
+SickOs: 1.2: This VM is focused on leveraging less common vulnerabilities and misconfigurations, providing a moderate challenge.
+
+URL: https://www.vulnhub.com/entry/sickos-12,144/
+Stapler: 1: Offers a variety of ways to reach the goal, suitable for intermediate learners looking to try different penetration techniques.
+
+URL: https://www.vulnhub.com/entry/stapler-1,150/
+
+## Advanced Level
+FristiLeaks: 1.3: Aimed at more experienced practitioners, this VM requires complex problem-solving to exploit.
+
+URL: https://www.vulnhub.com/entry/fristileaks-13,133/
+HackLAB: Vulnix: This VM requires advanced enumeration and exploitation techniques, presenting a realistic challenge to experienced users.
+
+URL: https://www.vulnhub.com/entry/hacklab-vulnix,48/
+Lord of the Root: 1.0.1: An advanced level VM that tests deep understanding and exploitation skills.
+
+URL: https://www.vulnhub.com/entry/lord-of-the-root-101,129/
+
+## For Practice and CTFs
+Symfonos: A series of VMs that are progressively challenging, themed around Greek mythology. They're great for practicing skills needed in Capture The Flag (CTF) competitions.
+URL: Search for "Symfonos" on VulnHub for various levels: https://www.vulnhub.com/
