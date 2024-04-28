@@ -47,7 +47,7 @@ Here's a list of the  components that form the backbone of my home lab:
 
 Proposed environment below. Need to add data flow with IPs and key legend.
 
-![alt text](https://github.com/Mitch-Z3JvbWl0/HomeLab/blob/main/HomeLab%20v4.png)
+![alt text](https://github.com/Mitch-Z3JvbWl0/HomeLab/blob/main/HomeLab%20v4.1.png)
 
 ## Virtualization
 
